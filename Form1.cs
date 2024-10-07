@@ -70,7 +70,11 @@ namespace TelasPimFrenteDeCaixa
             labelCodProd.Hide();
             labelQTD.Hide();
             labelTotalCompra.Hide();
-            labelNomeUsuario.Hide();
+            labelNomeUsuario = null;
+            labelCodBarras = null;
+            labelCodProd = null;
+            labelQTD = null;
+            labelTotalCompra = null;
         }
         public void VisualizarElementosVendas()
         {
