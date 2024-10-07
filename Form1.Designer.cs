@@ -190,9 +190,9 @@
             this.tbQTD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
             this.tbQTD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbQTD.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbQTD.Location = new System.Drawing.Point(1104, 456);
+            this.tbQTD.Location = new System.Drawing.Point(1016, 456);
             this.tbQTD.Name = "tbQTD";
-            this.tbQTD.Size = new System.Drawing.Size(100, 31);
+            this.tbQTD.Size = new System.Drawing.Size(265, 31);
             this.tbQTD.TabIndex = 14;
             this.tbQTD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbQTD.Visible = false;
@@ -203,9 +203,9 @@
             this.tbCodProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
             this.tbCodProd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbCodProd.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCodProd.Location = new System.Drawing.Point(796, 456);
+            this.tbCodProd.Location = new System.Drawing.Point(705, 456);
             this.tbCodProd.Name = "tbCodProd";
-            this.tbCodProd.Size = new System.Drawing.Size(100, 31);
+            this.tbCodProd.Size = new System.Drawing.Size(260, 31);
             this.tbCodProd.TabIndex = 14;
             this.tbCodProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbCodProd.Visible = false;
@@ -216,9 +216,9 @@
             this.tbCodBarras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
             this.tbCodBarras.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbCodBarras.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCodBarras.Location = new System.Drawing.Point(966, 535);
+            this.tbCodBarras.Location = new System.Drawing.Point(705, 535);
             this.tbCodBarras.Name = "tbCodBarras";
-            this.tbCodBarras.Size = new System.Drawing.Size(100, 31);
+            this.tbCodBarras.Size = new System.Drawing.Size(576, 31);
             this.tbCodBarras.TabIndex = 16;
             this.tbCodBarras.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbCodBarras.Visible = false;

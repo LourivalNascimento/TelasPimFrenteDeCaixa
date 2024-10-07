@@ -34,10 +34,11 @@ namespace TelasPimFrenteDeCaixa
         public void OcultarElementosLogin()
         {
             BackgroundImage = Properties.Resources.telaVendas;
-            tbUser.Text = null;
-            tbSenha.Text = null;
+           
             btnEntrar.Hide();
             tbUser.Hide();
+            tbUser.Text = null;
+            tbSenha.Text = null;
             tbSenha.Hide();
         }
         public void VisualizarElementosLogin()
@@ -57,12 +58,12 @@ namespace TelasPimFrenteDeCaixa
             btnCancelarItem.Hide();
             btnEncerrarCompra.Hide();
             //textBox
-            tbCodBarras = null;
-            tbCodProd = null;
-            tbQTD = null;
             tbCodBarras.Hide();
             tbCodProd.Hide();
             tbQTD.Hide();
+            tbCodBarras = null;
+            tbCodProd = null;
+            tbQTD = null;
             //label
             labelNomeUsuario.Hide();
             labelCodBarras.Hide();
