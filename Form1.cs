@@ -20,6 +20,33 @@ namespace TelasPimFrenteDeCaixa
             InitializeComponent();
         }
 
+        public void VisualizarElementosVendas()
+        {
+            //Trocando para tela de fundo de vendas
+            BackgroundImage = Properties.Resources.telaVendas;
+            //Elemento de vendas visível
+            //botões
+            btnEsc.Visible = true;
+            btnCancelarCompra.Visible = true;
+            btnCancelarItem.Visible = true;
+            btnEncerrarCompra.Visible = true;
+            //textBox
+            tbCodBarras.Visible = true;
+            tbCodProd.Visible = true;
+            tbQTD.Visible = true;
+            //label
+            labelNomeUsuario.Visible = true;
+            labelCodBarras.Visible = true;
+            labelCodProd.Visible = true;
+            labelQTD.Visible = true;
+            labelTotalCompra.Visible = true;
+            labelNomeUsuario.Text = "Olá " + tbUser.Text + "!";
+            labelProduto.Visible = true;
+            labelVisuCod.Visible = true;
+            labelVisuQtd.Visible = true;
+            labelValorUnidade.Visible = true;
+            labelValorTotalParcial.Visible = true;
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             //LOGIN 576; 349
@@ -52,34 +79,11 @@ namespace TelasPimFrenteDeCaixa
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            //Trocando para tela de fundo de vendas
-            BackgroundImage = Properties.Resources.telaVendas;
             //Ocultando os elementos de login após logar
             btnEntrar.Hide();
             tbUser.Hide();
             tbSenha.Hide();
-            //Elemento de vendas visível
-            //botões
-            btnEsc.Visible = true;
-            btnCancelarCompra.Visible = true;
-            btnCancelarItem.Visible = true;
-            btnEncerrarCompra.Visible = true;
-            //textBox
-            tbCodBarras.Visible = true;
-            tbCodProd.Visible = true;
-            tbQTD.Visible = true;
-            //label
-            labelNomeUsuario.Visible = true;
-            labelCodBarras.Visible = true;
-            labelCodProd.Visible = true;
-            labelQTD.Visible = true;
-            labelTotalCompra.Visible = true;
-            labelNomeUsuario.Text = "Olá " + tbUser.Text + "!";
-            labelProduto.Visible = true;
-            labelVisuCod.Visible = true;
-            labelVisuQtd.Visible = true;
-            labelValorUnidade.Visible = true;
-            labelValorTotalParcial.Visible = true;
+            VisualizarElementosVendas();    
         }
 
         //VENDAS
