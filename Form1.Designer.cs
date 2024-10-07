@@ -196,6 +196,7 @@
             this.tbQTD.TabIndex = 14;
             this.tbQTD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbQTD.Visible = false;
+            this.tbQTD.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbQTD_KeyDown);
             // 
             // tbCodProd
             // 
@@ -208,6 +209,7 @@
             this.tbCodProd.TabIndex = 14;
             this.tbCodProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbCodProd.Visible = false;
+            this.tbCodProd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbCodProd_KeyDown);
             // 
             // tbCodBarras
             // 

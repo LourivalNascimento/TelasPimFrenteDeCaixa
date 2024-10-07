@@ -41,11 +41,6 @@ namespace TelasPimFrenteDeCaixa
             labelQTD.Visible = true;
             labelTotalCompra.Visible = true;
             labelNomeUsuario.Text = "Olá " + tbUser.Text + "!";
-            labelProduto.Visible = true;
-            labelVisuCod.Visible = true;
-            labelVisuQtd.Visible = true;
-            labelValorUnidade.Visible = true;
-            labelValorTotalParcial.Visible = true;
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -103,6 +98,24 @@ namespace TelasPimFrenteDeCaixa
         private void btnEsc_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void tbCodProd_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) 
+            {
+                labelVisuCod.Visible = true;
+                labelVisuCod.Text = tbCodProd.Text;
+            }
+        }
+
+        private void tbQTD_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                labelVisuQtd.Visible = true;
+                labelVisuQtd.Text = tbQTD.Text;
+            }
         }
     }
 }
