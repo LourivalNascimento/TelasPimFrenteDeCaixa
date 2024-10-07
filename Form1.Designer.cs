@@ -270,11 +270,13 @@
             this.btnEncerrarCompra.Text = "ENCERRAR\r\nCOMPRA";
             this.btnEncerrarCompra.UseVisualStyleBackColor = false;
             this.btnEncerrarCompra.Visible = false;
+            this.btnEncerrarCompra.Click += new System.EventHandler(this.btnEncerrarCompra_Click);
             // 
             // labelVisuCod
             // 
             this.labelVisuCod.AutoSize = true;
             this.labelVisuCod.BackColor = System.Drawing.Color.Transparent;
+            this.labelVisuCod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelVisuCod.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVisuCod.Location = new System.Drawing.Point(54, 162);
             this.labelVisuCod.Name = "labelVisuCod";
@@ -287,6 +289,7 @@
             // 
             this.labelProduto.AutoSize = true;
             this.labelProduto.BackColor = System.Drawing.Color.Transparent;
+            this.labelProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelProduto.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelProduto.Location = new System.Drawing.Point(133, 162);
             this.labelProduto.Name = "labelProduto";
@@ -299,6 +302,7 @@
             // 
             this.labelVisuQtd.AutoSize = true;
             this.labelVisuQtd.BackColor = System.Drawing.Color.Transparent;
+            this.labelVisuQtd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelVisuQtd.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVisuQtd.Location = new System.Drawing.Point(409, 162);
             this.labelVisuQtd.Name = "labelVisuQtd";
@@ -311,6 +315,7 @@
             // 
             this.labelValorUnidade.AutoSize = true;
             this.labelValorUnidade.BackColor = System.Drawing.Color.Transparent;
+            this.labelValorUnidade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelValorUnidade.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelValorUnidade.Location = new System.Drawing.Point(491, 162);
             this.labelValorUnidade.Name = "labelValorUnidade";
@@ -323,6 +328,7 @@
             // 
             this.labelValorTotalParcial.AutoSize = true;
             this.labelValorTotalParcial.BackColor = System.Drawing.Color.Transparent;
+            this.labelValorTotalParcial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelValorTotalParcial.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelValorTotalParcial.Location = new System.Drawing.Point(575, 162);
             this.labelValorTotalParcial.Name = "labelValorTotalParcial";
@@ -335,7 +341,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
             this.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.VENDAS___CAIXA;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1357, 691);
@@ -365,7 +371,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "C A I X A (m o r a n g o l â n d i a)";
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -376,7 +381,6 @@
 
         private System.Windows.Forms.TextBox tbUser;
         private System.Windows.Forms.TextBox tbSenha;
-        private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnEsc;
         private System.Windows.Forms.Label labelNomeUsuario;
         private System.Windows.Forms.Label labelTotalCompra;
@@ -394,6 +398,7 @@
         private System.Windows.Forms.Label labelVisuQtd;
         private System.Windows.Forms.Label labelValorUnidade;
         private System.Windows.Forms.Label labelValorTotalParcial;
+        private System.Windows.Forms.Button btnEntrar;
     }
 }
 
