@@ -44,6 +44,11 @@
             this.btnCancelarItem = new System.Windows.Forms.Button();
             this.btnCancelarCompra = new System.Windows.Forms.Button();
             this.btnEncerrarCompra = new System.Windows.Forms.Button();
+            this.labelVisuCod = new System.Windows.Forms.Label();
+            this.labelProduto = new System.Windows.Forms.Label();
+            this.labelVisuQtd = new System.Windows.Forms.Label();
+            this.labelValorUnidade = new System.Windows.Forms.Label();
+            this.labelValorTotalParcial = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbUser
@@ -134,11 +139,11 @@
             this.labelTotalCompra.AutoSize = true;
             this.labelTotalCompra.BackColor = System.Drawing.Color.Transparent;
             this.labelTotalCompra.Font = new System.Drawing.Font("Berlin Sans FB Demi", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotalCompra.Location = new System.Drawing.Point(524, 604);
+            this.labelTotalCompra.Location = new System.Drawing.Point(509, 604);
             this.labelTotalCompra.Name = "labelTotalCompra";
-            this.labelTotalCompra.Size = new System.Drawing.Size(73, 31);
+            this.labelTotalCompra.Size = new System.Drawing.Size(110, 31);
             this.labelTotalCompra.TabIndex = 10;
-            this.labelTotalCompra.Text = "0,00";
+            this.labelTotalCompra.Text = "R$ 0,00";
             this.labelTotalCompra.Visible = false;
             // 
             // labelCodProd
@@ -189,6 +194,7 @@
             this.tbQTD.Name = "tbQTD";
             this.tbQTD.Size = new System.Drawing.Size(100, 31);
             this.tbQTD.TabIndex = 14;
+            this.tbQTD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbQTD.Visible = false;
             // 
             // tbCodProd
@@ -200,6 +206,7 @@
             this.tbCodProd.Name = "tbCodProd";
             this.tbCodProd.Size = new System.Drawing.Size(100, 31);
             this.tbCodProd.TabIndex = 14;
+            this.tbCodProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbCodProd.Visible = false;
             // 
             // tbCodBarras
@@ -211,6 +218,7 @@
             this.tbCodBarras.Name = "tbCodBarras";
             this.tbCodBarras.Size = new System.Drawing.Size(100, 31);
             this.tbCodBarras.TabIndex = 16;
+            this.tbCodBarras.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbCodBarras.Visible = false;
             // 
             // btnCancelarItem
@@ -261,6 +269,66 @@
             this.btnEncerrarCompra.UseVisualStyleBackColor = false;
             this.btnEncerrarCompra.Visible = false;
             // 
+            // labelVisuCod
+            // 
+            this.labelVisuCod.AutoSize = true;
+            this.labelVisuCod.BackColor = System.Drawing.Color.Transparent;
+            this.labelVisuCod.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVisuCod.Location = new System.Drawing.Point(54, 162);
+            this.labelVisuCod.Name = "labelVisuCod";
+            this.labelVisuCod.Size = new System.Drawing.Size(65, 22);
+            this.labelVisuCod.TabIndex = 20;
+            this.labelVisuCod.Text = "label1";
+            this.labelVisuCod.Visible = false;
+            // 
+            // labelProduto
+            // 
+            this.labelProduto.AutoSize = true;
+            this.labelProduto.BackColor = System.Drawing.Color.Transparent;
+            this.labelProduto.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProduto.Location = new System.Drawing.Point(133, 162);
+            this.labelProduto.Name = "labelProduto";
+            this.labelProduto.Size = new System.Drawing.Size(65, 22);
+            this.labelProduto.TabIndex = 21;
+            this.labelProduto.Text = "label2";
+            this.labelProduto.Visible = false;
+            // 
+            // labelVisuQtd
+            // 
+            this.labelVisuQtd.AutoSize = true;
+            this.labelVisuQtd.BackColor = System.Drawing.Color.Transparent;
+            this.labelVisuQtd.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVisuQtd.Location = new System.Drawing.Point(409, 162);
+            this.labelVisuQtd.Name = "labelVisuQtd";
+            this.labelVisuQtd.Size = new System.Drawing.Size(65, 22);
+            this.labelVisuQtd.TabIndex = 22;
+            this.labelVisuQtd.Text = "label3";
+            this.labelVisuQtd.Visible = false;
+            // 
+            // labelValorUnidade
+            // 
+            this.labelValorUnidade.AutoSize = true;
+            this.labelValorUnidade.BackColor = System.Drawing.Color.Transparent;
+            this.labelValorUnidade.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValorUnidade.Location = new System.Drawing.Point(491, 162);
+            this.labelValorUnidade.Name = "labelValorUnidade";
+            this.labelValorUnidade.Size = new System.Drawing.Size(65, 22);
+            this.labelValorUnidade.TabIndex = 23;
+            this.labelValorUnidade.Text = "label4";
+            this.labelValorUnidade.Visible = false;
+            // 
+            // labelValorTotalParcial
+            // 
+            this.labelValorTotalParcial.AutoSize = true;
+            this.labelValorTotalParcial.BackColor = System.Drawing.Color.Transparent;
+            this.labelValorTotalParcial.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValorTotalParcial.Location = new System.Drawing.Point(575, 162);
+            this.labelValorTotalParcial.Name = "labelValorTotalParcial";
+            this.labelValorTotalParcial.Size = new System.Drawing.Size(65, 22);
+            this.labelValorTotalParcial.TabIndex = 24;
+            this.labelValorTotalParcial.Text = "label5";
+            this.labelValorTotalParcial.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -269,6 +337,11 @@
             this.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.VENDAS___CAIXA;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1357, 691);
+            this.Controls.Add(this.labelValorTotalParcial);
+            this.Controls.Add(this.labelValorUnidade);
+            this.Controls.Add(this.labelVisuQtd);
+            this.Controls.Add(this.labelProduto);
+            this.Controls.Add(this.labelVisuCod);
             this.Controls.Add(this.btnEncerrarCompra);
             this.Controls.Add(this.btnCancelarCompra);
             this.Controls.Add(this.btnCancelarItem);
@@ -314,6 +387,11 @@
         private System.Windows.Forms.Button btnCancelarItem;
         private System.Windows.Forms.Button btnCancelarCompra;
         private System.Windows.Forms.Button btnEncerrarCompra;
+        private System.Windows.Forms.Label labelVisuCod;
+        private System.Windows.Forms.Label labelProduto;
+        private System.Windows.Forms.Label labelVisuQtd;
+        private System.Windows.Forms.Label labelValorUnidade;
+        private System.Windows.Forms.Label labelValorTotalParcial;
     }
 }
 

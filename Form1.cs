@@ -59,19 +59,27 @@ namespace TelasPimFrenteDeCaixa
             tbUser.Hide();
             tbSenha.Hide();
             //Elemento de vendas visível
+            //botões
             btnEsc.Visible = true;
             btnCancelarCompra.Visible = true;
             btnCancelarItem.Visible = true;
             btnEncerrarCompra.Visible = true;
+            //textBox
             tbCodBarras.Visible = true;
             tbCodProd.Visible = true;
             tbQTD.Visible = true;
+            //label
             labelNomeUsuario.Visible = true;
             labelCodBarras.Visible = true;
             labelCodProd.Visible = true;
             labelQTD.Visible = true;
             labelTotalCompra.Visible = true;
             labelNomeUsuario.Text = "Olá " + tbUser.Text + "!";
+            labelProduto.Visible = true;
+            labelVisuCod.Visible = true;
+            labelVisuQtd.Visible = true;
+            labelValorUnidade.Visible = true;
+            labelValorTotalParcial.Visible = true;
         }
 
         //VENDAS
