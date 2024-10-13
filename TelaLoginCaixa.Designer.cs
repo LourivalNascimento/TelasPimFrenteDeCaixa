@@ -1,6 +1,6 @@
 ﻿namespace TelasPimFrenteDeCaixa
 {
-    partial class Form1
+    partial class TelaLoginCaixa
     {
         /// <summary>
         /// Variável de designer necessária.
