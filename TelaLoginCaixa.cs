@@ -33,7 +33,7 @@ namespace TelasPimFrenteDeCaixa
             return null;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEntrar_Click(object sender, EventArgs e)
         {
             Form openForm1 = FormJaAberto(typeof(TelaVendasCaixa));
 
@@ -47,6 +47,6 @@ namespace TelasPimFrenteDeCaixa
                 //telaVendas.MdiParent = this;
                 telaVendas.Show();
             }
-        } 
+        }
     }
 }
