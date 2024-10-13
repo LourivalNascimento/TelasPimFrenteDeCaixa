@@ -37,12 +37,15 @@
             this.pictureCenouraTop = new System.Windows.Forms.PictureBox();
             this.pictureCerejaDireita = new System.Windows.Forms.PictureBox();
             this.pictureLogoMorangolandia = new System.Windows.Forms.PictureBox();
-            this.pictureFundoLogin = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panelFundoLogin = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.labelCodUser = new System.Windows.Forms.Label();
+            this.labelSenha = new System.Windows.Forms.Label();
+            this.textBoxSenha = new System.Windows.Forms.TextBox();
+            this.textBoxCodUser = new System.Windows.Forms.TextBox();
+            this.pictureCaixaTextPassw = new System.Windows.Forms.PictureBox();
+            this.pictureCaixaTextCod = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMaca)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureAbacaxi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaEsquerda)).BeginInit();
@@ -52,7 +55,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureCenouraTop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaDireita)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMorangolandia)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFundoLogin)).BeginInit();
+            this.panelFundoLogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCaixaTextPassw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCaixaTextCod)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureMaca
@@ -162,62 +167,123 @@
             this.pictureLogoMorangolandia.TabIndex = 8;
             this.pictureLogoMorangolandia.TabStop = false;
             // 
-            // pictureFundoLogin
-            // 
-            this.pictureFundoLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.pictureFundoLogin.BackColor = System.Drawing.Color.Transparent;
-            this.pictureFundoLogin.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_login;
-            this.pictureFundoLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureFundoLogin.Location = new System.Drawing.Point(560, 381);
-            this.pictureFundoLogin.Name = "pictureFundoLogin";
-            this.pictureFundoLogin.Size = new System.Drawing.Size(244, 266);
-            this.pictureFundoLogin.TabIndex = 9;
-            this.pictureFundoLogin.TabStop = false;
-            this.pictureFundoLogin.Click += new System.EventHandler(this.pictureFundoLogin_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(641, 323);
+            this.label1.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(618, 316);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 26);
+            this.label1.Size = new System.Drawing.Size(114, 44);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Olá, Atendente!\r\nFaça seu login!\r\n";
+            this.label1.Text = "Olá, Atendente!\r\n Faça seu login!\r\n";
             // 
-            // textBox1
+            // panelFundoLogin
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.textBox1.Location = new System.Drawing.Point(633, 454);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 11;
+            this.panelFundoLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.panelFundoLogin.BackColor = System.Drawing.Color.Transparent;
+            this.panelFundoLogin.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_login;
+            this.panelFundoLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelFundoLogin.Controls.Add(this.button1);
+            this.panelFundoLogin.Controls.Add(this.labelCodUser);
+            this.panelFundoLogin.Controls.Add(this.labelSenha);
+            this.panelFundoLogin.Controls.Add(this.textBoxSenha);
+            this.panelFundoLogin.Controls.Add(this.textBoxCodUser);
+            this.panelFundoLogin.Controls.Add(this.pictureCaixaTextPassw);
+            this.panelFundoLogin.Controls.Add(this.pictureCaixaTextCod);
+            this.panelFundoLogin.Location = new System.Drawing.Point(542, 365);
+            this.panelFundoLogin.Name = "panelFundoLogin";
+            this.panelFundoLogin.Size = new System.Drawing.Size(270, 279);
+            this.panelFundoLogin.TabIndex = 11;
             // 
-            // textBox2
+            // button1
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.textBox2.Location = new System.Drawing.Point(633, 521);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 12;
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.button1.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.btn_entrar;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(68, 200);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(143, 60);
+            this.button1.TabIndex = 19;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
+            // labelCodUser
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(663, 445);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "label2";
+            this.labelCodUser.AutoSize = true;
+            this.labelCodUser.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCodUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelCodUser.Location = new System.Drawing.Point(102, 13);
+            this.labelCodUser.Name = "labelCodUser";
+            this.labelCodUser.Size = new System.Drawing.Size(68, 22);
+            this.labelCodUser.TabIndex = 17;
+            this.labelCodUser.Text = "código:";
             // 
-            // label3
+            // labelSenha
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(667, 514);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "label3";
+            this.labelSenha.AutoSize = true;
+            this.labelSenha.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelSenha.Location = new System.Drawing.Point(105, 101);
+            this.labelSenha.Name = "labelSenha";
+            this.labelSenha.Size = new System.Drawing.Size(62, 22);
+            this.labelSenha.TabIndex = 18;
+            this.labelSenha.Text = "senha:";
+            // 
+            // textBoxSenha
+            // 
+            this.textBoxSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.textBoxSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxSenha.Font = new System.Drawing.Font("Tw Cen MT Condensed", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(65)))), ((int)(((byte)(194)))));
+            this.textBoxSenha.Location = new System.Drawing.Point(37, 140);
+            this.textBoxSenha.Name = "textBoxSenha";
+            this.textBoxSenha.Size = new System.Drawing.Size(196, 31);
+            this.textBoxSenha.TabIndex = 3;
+            this.textBoxSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxSenha.UseSystemPasswordChar = true;
+            // 
+            // textBoxCodUser
+            // 
+            this.textBoxCodUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.textBoxCodUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxCodUser.Font = new System.Drawing.Font("Tw Cen MT Condensed", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCodUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(65)))), ((int)(((byte)(194)))));
+            this.textBoxCodUser.Location = new System.Drawing.Point(37, 45);
+            this.textBoxCodUser.Name = "textBoxCodUser";
+            this.textBoxCodUser.Size = new System.Drawing.Size(196, 31);
+            this.textBoxCodUser.TabIndex = 2;
+            this.textBoxCodUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureCaixaTextPassw
+            // 
+            this.pictureCaixaTextPassw.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.pictureCaixaTextPassw.BackColor = System.Drawing.Color.Transparent;
+            this.pictureCaixaTextPassw.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.caixa_de_texto_login;
+            this.pictureCaixaTextPassw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureCaixaTextPassw.Location = new System.Drawing.Point(16, 124);
+            this.pictureCaixaTextPassw.Name = "pictureCaixaTextPassw";
+            this.pictureCaixaTextPassw.Size = new System.Drawing.Size(237, 59);
+            this.pictureCaixaTextPassw.TabIndex = 1;
+            this.pictureCaixaTextPassw.TabStop = false;
+            // 
+            // pictureCaixaTextCod
+            // 
+            this.pictureCaixaTextCod.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.pictureCaixaTextCod.BackColor = System.Drawing.Color.Transparent;
+            this.pictureCaixaTextCod.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.caixa_de_texto_login;
+            this.pictureCaixaTextCod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureCaixaTextCod.Location = new System.Drawing.Point(16, 35);
+            this.pictureCaixaTextCod.Name = "pictureCaixaTextCod";
+            this.pictureCaixaTextCod.Size = new System.Drawing.Size(237, 59);
+            this.pictureCaixaTextCod.TabIndex = 0;
+            this.pictureCaixaTextCod.TabStop = false;
             // 
             // Form1
             // 
@@ -226,16 +292,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 745);
+            this.Controls.Add(this.panelFundoLogin);
             this.Controls.Add(this.pictureCerejaDireita);
             this.Controls.Add(this.pictureCerejaEsquerda);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBeterraba);
             this.Controls.Add(this.pictureMorango);
             this.Controls.Add(this.pictureAbacaxi);
-            this.Controls.Add(this.pictureFundoLogin);
             this.Controls.Add(this.pictureLogoMorangolandia);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureCenouraBottom);
@@ -254,7 +316,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureCenouraTop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaDireita)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMorangolandia)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFundoLogin)).EndInit();
+            this.panelFundoLogin.ResumeLayout(false);
+            this.panelFundoLogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCaixaTextPassw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCaixaTextCod)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,12 +336,15 @@
         private System.Windows.Forms.PictureBox pictureCenouraTop;
         private System.Windows.Forms.PictureBox pictureCerejaDireita;
         private System.Windows.Forms.PictureBox pictureLogoMorangolandia;
-        private System.Windows.Forms.PictureBox pictureFundoLogin;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panelFundoLogin;
+        private System.Windows.Forms.PictureBox pictureCaixaTextPassw;
+        private System.Windows.Forms.PictureBox pictureCaixaTextCod;
+        private System.Windows.Forms.TextBox textBoxSenha;
+        private System.Windows.Forms.TextBox textBoxCodUser;
+        private System.Windows.Forms.Label labelSenha;
+        private System.Windows.Forms.Label labelCodUser;
+        private System.Windows.Forms.Button button1;
     }
 }
 
