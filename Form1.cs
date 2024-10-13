@@ -16,5 +16,10 @@ namespace TelasPimFrenteDeCaixa
         {
             InitializeComponent();
         }
+
+        private void pictureFundoLogin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
