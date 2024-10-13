@@ -47,6 +47,9 @@ namespace TelasPimFrenteDeCaixa
                 //telaVendas.MdiParent = this;
                 telaVendas.Show();
             }
+
+            textBoxCodUser.Text = null;
+            textBoxSenha.Text = null;   
         }
     }
 }

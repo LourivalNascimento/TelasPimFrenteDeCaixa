@@ -21,5 +21,10 @@ namespace TelasPimFrenteDeCaixa
         {
             Close();
         }
+
+        private void TelaVendasCaixa_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
