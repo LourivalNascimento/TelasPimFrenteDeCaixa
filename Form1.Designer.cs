@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureMaca = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureAbacaxi = new System.Windows.Forms.PictureBox();
+            this.pictureCerejaEsquerda = new System.Windows.Forms.PictureBox();
+            this.pictureCenouraBottom = new System.Windows.Forms.PictureBox();
+            this.pictureBeterraba = new System.Windows.Forms.PictureBox();
             this.pictureMorango = new System.Windows.Forms.PictureBox();
             this.pictureCenouraTop = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureCerejaDireita = new System.Windows.Forms.PictureBox();
             this.pictureLogoMorangolandia = new System.Windows.Forms.PictureBox();
             this.pictureFundoLogin = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMaca)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureAbacaxi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaEsquerda)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCenouraBottom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBeterraba)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMorango)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCenouraTop)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaDireita)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMorangolandia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFundoLogin)).BeginInit();
             this.SuspendLayout();
@@ -62,37 +62,49 @@
             this.pictureMaca.TabIndex = 0;
             this.pictureMaca.TabStop = false;
             // 
-            // pictureBox2
+            // pictureAbacaxi
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(53, 366);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pictureAbacaxi.BackColor = System.Drawing.Color.Transparent;
+            this.pictureAbacaxi.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.abacaxi;
+            this.pictureAbacaxi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureAbacaxi.Location = new System.Drawing.Point(-47, 192);
+            this.pictureAbacaxi.Name = "pictureAbacaxi";
+            this.pictureAbacaxi.Size = new System.Drawing.Size(310, 330);
+            this.pictureAbacaxi.TabIndex = 1;
+            this.pictureAbacaxi.TabStop = false;
             // 
-            // pictureBox3
+            // pictureCerejaEsquerda
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(67, 215);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.pictureCerejaEsquerda.BackColor = System.Drawing.Color.Transparent;
+            this.pictureCerejaEsquerda.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.cereja_direita;
+            this.pictureCerejaEsquerda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureCerejaEsquerda.Location = new System.Drawing.Point(-82, 183);
+            this.pictureCerejaEsquerda.Name = "pictureCerejaEsquerda";
+            this.pictureCerejaEsquerda.Size = new System.Drawing.Size(155, 130);
+            this.pictureCerejaEsquerda.TabIndex = 2;
+            this.pictureCerejaEsquerda.TabStop = false;
             // 
-            // pictureBox4
+            // pictureCenouraBottom
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(327, 393);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.pictureCenouraBottom.BackColor = System.Drawing.Color.Transparent;
+            this.pictureCenouraBottom.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.cenoura_direita;
+            this.pictureCenouraBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureCenouraBottom.Location = new System.Drawing.Point(196, 347);
+            this.pictureCenouraBottom.Name = "pictureCenouraBottom";
+            this.pictureCenouraBottom.Size = new System.Drawing.Size(296, 146);
+            this.pictureCenouraBottom.TabIndex = 3;
+            this.pictureCenouraBottom.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBeterraba
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(594, 366);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.pictureBeterraba.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBeterraba.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.beterraba;
+            this.pictureBeterraba.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBeterraba.Location = new System.Drawing.Point(442, 203);
+            this.pictureBeterraba.Name = "pictureBeterraba";
+            this.pictureBeterraba.Size = new System.Drawing.Size(296, 266);
+            this.pictureBeterraba.TabIndex = 4;
+            this.pictureBeterraba.TabStop = false;
             // 
             // pictureMorango
             // 
@@ -116,13 +128,16 @@
             this.pictureCenouraTop.TabIndex = 6;
             this.pictureCenouraTop.TabStop = false;
             // 
-            // pictureBox8
+            // pictureCerejaDireita
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(659, 184);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
+            this.pictureCerejaDireita.BackColor = System.Drawing.Color.Transparent;
+            this.pictureCerejaDireita.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.cereja_esquerda;
+            this.pictureCerejaDireita.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureCerejaDireita.Location = new System.Drawing.Point(645, 127);
+            this.pictureCerejaDireita.Name = "pictureCerejaDireita";
+            this.pictureCerejaDireita.Size = new System.Drawing.Size(155, 130);
+            this.pictureCerejaDireita.TabIndex = 7;
+            this.pictureCerejaDireita.TabStop = false;
             // 
             // pictureLogoMorangolandia
             // 
@@ -146,51 +161,64 @@
             this.pictureFundoLogin.TabIndex = 9;
             this.pictureFundoLogin.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(321, 167);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 26);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Olá, Atendente!\r\nFaça seu login!\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(706, 450);
             this.Controls.Add(this.pictureMorango);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureCenouraBottom);
+            this.Controls.Add(this.pictureBeterraba);
+            this.Controls.Add(this.pictureCerejaDireita);
             this.Controls.Add(this.pictureCenouraTop);
             this.Controls.Add(this.pictureFundoLogin);
             this.Controls.Add(this.pictureLogoMorangolandia);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureCerejaEsquerda);
+            this.Controls.Add(this.pictureAbacaxi);
             this.Controls.Add(this.pictureMaca);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureMaca)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureAbacaxi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaEsquerda)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCenouraBottom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBeterraba)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMorango)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCenouraTop)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaDireita)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMorangolandia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFundoLogin)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pictureMaca;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureAbacaxi;
+        private System.Windows.Forms.PictureBox pictureCerejaEsquerda;
+        private System.Windows.Forms.PictureBox pictureCenouraBottom;
+        private System.Windows.Forms.PictureBox pictureBeterraba;
         private System.Windows.Forms.PictureBox pictureMorango;
         private System.Windows.Forms.PictureBox pictureCenouraTop;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureCerejaDireita;
         private System.Windows.Forms.PictureBox pictureLogoMorangolandia;
         private System.Windows.Forms.PictureBox pictureFundoLogin;
+        private System.Windows.Forms.Label label1;
     }
 }
 
