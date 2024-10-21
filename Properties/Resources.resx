@@ -136,11 +136,17 @@
   <data name="cenoura direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cenoura direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fundo cod barras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo cod barras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="maçã" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maçã.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beterraba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\beterraba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo atendente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo atendente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="caixa de texto login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caixa de texto login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +178,10 @@
   <data name="cenoura esquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cenoura esquerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo atendente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo atendente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundo botao f1 f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo botao f1 f2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundo botão f4 f5 f6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo botão f4 f5 f6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -204,6 +204,7 @@
             this.btnEntrar.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.btn_entrar;
             this.btnEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEntrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
             this.btnEntrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnEntrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

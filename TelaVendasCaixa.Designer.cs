@@ -31,17 +31,33 @@
             this.panelEsc = new System.Windows.Forms.Panel();
             this.btnEsc = new System.Windows.Forms.Button();
             this.pictureTextEsc = new System.Windows.Forms.PictureBox();
+            this.panelCodQtdCodBarra = new System.Windows.Forms.Panel();
+            this.labelF3CodBarras = new System.Windows.Forms.Label();
+            this.pictureFundCodBarras = new System.Windows.Forms.PictureBox();
+            this.labelF2Qtd = new System.Windows.Forms.Label();
+            this.pictureFundQtd = new System.Windows.Forms.PictureBox();
+            this.labelF1CodProd = new System.Windows.Forms.Label();
+            this.pictureFundCodProd = new System.Windows.Forms.PictureBox();
             this.panelFundoAtendente = new System.Windows.Forms.Panel();
+            this.labelHora = new System.Windows.Forms.Label();
             this.labelData = new System.Windows.Forms.Label();
             this.labelNomeAtendente = new System.Windows.Forms.Label();
             this.pictureAtendente = new System.Windows.Forms.PictureBox();
             this.panelFundoCaixaAberto = new System.Windows.Forms.Panel();
             this.pictureTextoCaixaAberto = new System.Windows.Forms.PictureBox();
             this.pictureLogoMorangolandiaVendas = new System.Windows.Forms.PictureBox();
-            this.labelHora = new System.Windows.Forms.Label();
-            this.panelCodQtdCodBarra = new System.Windows.Forms.Panel();
+            this.btnF4 = new System.Windows.Forms.Button();
+            this.btnF5 = new System.Windows.Forms.Button();
+            this.btnF6 = new System.Windows.Forms.Button();
+            this.textBoxCodProd = new System.Windows.Forms.TextBox();
+            this.textBoxQtd = new System.Windows.Forms.TextBox();
+            this.textBoxCodBarras = new System.Windows.Forms.TextBox();
             this.panelEsc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTextEsc)).BeginInit();
+            this.panelCodQtdCodBarra.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFundCodBarras)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFundQtd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFundCodProd)).BeginInit();
             this.panelFundoAtendente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureAtendente)).BeginInit();
             this.panelFundoCaixaAberto.SuspendLayout();
@@ -65,8 +81,9 @@
             this.btnEsc.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.esc_logo;
             this.btnEsc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEsc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEsc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEsc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnEsc.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnEsc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnEsc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
             this.btnEsc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEsc.ForeColor = System.Drawing.Color.Transparent;
             this.btnEsc.Location = new System.Drawing.Point(50, 2);
@@ -80,11 +97,98 @@
             // 
             this.pictureTextEsc.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.texto_esc;
             this.pictureTextEsc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureTextEsc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureTextEsc.Location = new System.Drawing.Point(3, 17);
             this.pictureTextEsc.Name = "pictureTextEsc";
             this.pictureTextEsc.Size = new System.Drawing.Size(44, 18);
             this.pictureTextEsc.TabIndex = 0;
             this.pictureTextEsc.TabStop = false;
+            // 
+            // panelCodQtdCodBarra
+            // 
+            this.panelCodQtdCodBarra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelCodQtdCodBarra.Controls.Add(this.textBoxCodBarras);
+            this.panelCodQtdCodBarra.Controls.Add(this.textBoxQtd);
+            this.panelCodQtdCodBarra.Controls.Add(this.textBoxCodProd);
+            this.panelCodQtdCodBarra.Controls.Add(this.btnF6);
+            this.panelCodQtdCodBarra.Controls.Add(this.btnF5);
+            this.panelCodQtdCodBarra.Controls.Add(this.btnF4);
+            this.panelCodQtdCodBarra.Controls.Add(this.labelF3CodBarras);
+            this.panelCodQtdCodBarra.Controls.Add(this.pictureFundCodBarras);
+            this.panelCodQtdCodBarra.Controls.Add(this.labelF2Qtd);
+            this.panelCodQtdCodBarra.Controls.Add(this.pictureFundQtd);
+            this.panelCodQtdCodBarra.Controls.Add(this.labelF1CodProd);
+            this.panelCodQtdCodBarra.Controls.Add(this.pictureFundCodProd);
+            this.panelCodQtdCodBarra.Location = new System.Drawing.Point(775, 448);
+            this.panelCodQtdCodBarra.Name = "panelCodQtdCodBarra";
+            this.panelCodQtdCodBarra.Size = new System.Drawing.Size(545, 324);
+            this.panelCodQtdCodBarra.TabIndex = 5;
+            // 
+            // labelF3CodBarras
+            // 
+            this.labelF3CodBarras.AutoSize = true;
+            this.labelF3CodBarras.BackColor = System.Drawing.Color.Transparent;
+            this.labelF3CodBarras.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF3CodBarras.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.labelF3CodBarras.Location = new System.Drawing.Point(145, 97);
+            this.labelF3CodBarras.Name = "labelF3CodBarras";
+            this.labelF3CodBarras.Size = new System.Drawing.Size(238, 36);
+            this.labelF3CodBarras.TabIndex = 5;
+            this.labelF3CodBarras.Text = "F3  - COD. BARRAS";
+            // 
+            // pictureFundCodBarras
+            // 
+            this.pictureFundCodBarras.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_cod_barras;
+            this.pictureFundCodBarras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFundCodBarras.Location = new System.Drawing.Point(0, 133);
+            this.pictureFundCodBarras.Name = "pictureFundCodBarras";
+            this.pictureFundCodBarras.Size = new System.Drawing.Size(545, 60);
+            this.pictureFundCodBarras.TabIndex = 4;
+            this.pictureFundCodBarras.TabStop = false;
+            // 
+            // labelF2Qtd
+            // 
+            this.labelF2Qtd.AutoSize = true;
+            this.labelF2Qtd.BackColor = System.Drawing.Color.Transparent;
+            this.labelF2Qtd.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF2Qtd.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.labelF2Qtd.Location = new System.Drawing.Point(306, 1);
+            this.labelF2Qtd.Name = "labelF2Qtd";
+            this.labelF2Qtd.Size = new System.Drawing.Size(237, 36);
+            this.labelF2Qtd.TabIndex = 3;
+            this.labelF2Qtd.Text = "F2  - QUANTIDADE";
+            // 
+            // pictureFundQtd
+            // 
+            this.pictureFundQtd.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_botao_f1_f2;
+            this.pictureFundQtd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFundQtd.Location = new System.Drawing.Point(309, 37);
+            this.pictureFundQtd.Name = "pictureFundQtd";
+            this.pictureFundQtd.Size = new System.Drawing.Size(236, 60);
+            this.pictureFundQtd.TabIndex = 2;
+            this.pictureFundQtd.TabStop = false;
+            // 
+            // labelF1CodProd
+            // 
+            this.labelF1CodProd.AutoSize = true;
+            this.labelF1CodProd.BackColor = System.Drawing.Color.Transparent;
+            this.labelF1CodProd.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF1CodProd.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.labelF1CodProd.Location = new System.Drawing.Point(3, 1);
+            this.labelF1CodProd.Name = "labelF1CodProd";
+            this.labelF1CodProd.Size = new System.Drawing.Size(230, 36);
+            this.labelF1CodProd.TabIndex = 1;
+            this.labelF1CodProd.Text = "F1  -  COD.  PROD.";
+            // 
+            // pictureFundCodProd
+            // 
+            this.pictureFundCodProd.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_botao_f1_f2;
+            this.pictureFundCodProd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFundCodProd.Location = new System.Drawing.Point(0, 37);
+            this.pictureFundCodProd.Name = "pictureFundCodProd";
+            this.pictureFundCodProd.Size = new System.Drawing.Size(236, 60);
+            this.pictureFundCodProd.TabIndex = 0;
+            this.pictureFundCodProd.TabStop = false;
             // 
             // panelFundoAtendente
             // 
@@ -96,17 +200,28 @@
             this.panelFundoAtendente.Controls.Add(this.labelData);
             this.panelFundoAtendente.Controls.Add(this.labelNomeAtendente);
             this.panelFundoAtendente.Controls.Add(this.pictureAtendente);
-            this.panelFundoAtendente.Location = new System.Drawing.Point(775, 347);
+            this.panelFundoAtendente.Location = new System.Drawing.Point(775, 354);
             this.panelFundoAtendente.Name = "panelFundoAtendente";
-            this.panelFundoAtendente.Size = new System.Drawing.Size(545, 96);
+            this.panelFundoAtendente.Size = new System.Drawing.Size(545, 80);
             this.panelFundoAtendente.TabIndex = 4;
+            // 
+            // labelHora
+            // 
+            this.labelHora.AutoSize = true;
+            this.labelHora.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHora.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.labelHora.Location = new System.Drawing.Point(359, 43);
+            this.labelHora.Name = "labelHora";
+            this.labelHora.Size = new System.Drawing.Size(97, 24);
+            this.labelHora.TabIndex = 3;
+            this.labelHora.Text = "Hora: 00:00";
             // 
             // labelData
             // 
             this.labelData.AutoSize = true;
             this.labelData.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelData.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.labelData.Location = new System.Drawing.Point(386, 26);
+            this.labelData.Location = new System.Drawing.Point(359, 19);
             this.labelData.Name = "labelData";
             this.labelData.Size = new System.Drawing.Size(142, 24);
             this.labelData.TabIndex = 2;
@@ -117,7 +232,7 @@
             this.labelNomeAtendente.AutoSize = true;
             this.labelNomeAtendente.Font = new System.Drawing.Font("Tw Cen MT Condensed", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNomeAtendente.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.labelNomeAtendente.Location = new System.Drawing.Point(106, 29);
+            this.labelNomeAtendente.Location = new System.Drawing.Point(73, 22);
             this.labelNomeAtendente.Name = "labelNomeAtendente";
             this.labelNomeAtendente.Size = new System.Drawing.Size(212, 41);
             this.labelNomeAtendente.TabIndex = 1;
@@ -129,7 +244,7 @@
             this.pictureAtendente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureAtendente.Location = new System.Drawing.Point(18, 23);
             this.pictureAtendente.Name = "pictureAtendente";
-            this.pictureAtendente.Size = new System.Drawing.Size(64, 56);
+            this.pictureAtendente.Size = new System.Drawing.Size(49, 40);
             this.pictureAtendente.TabIndex = 0;
             this.pictureAtendente.TabStop = false;
             // 
@@ -166,23 +281,95 @@
             this.pictureLogoMorangolandiaVendas.TabIndex = 1;
             this.pictureLogoMorangolandiaVendas.TabStop = false;
             // 
-            // labelHora
+            // btnF4
             // 
-            this.labelHora.AutoSize = true;
-            this.labelHora.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHora.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.labelHora.Location = new System.Drawing.Point(386, 50);
-            this.labelHora.Name = "labelHora";
-            this.labelHora.Size = new System.Drawing.Size(97, 24);
-            this.labelHora.TabIndex = 3;
-            this.labelHora.Text = "Hora: 00:00";
+            this.btnF4.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_botão_f4_f5_f6;
+            this.btnF4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnF4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnF4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnF4.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF4.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.btnF4.Location = new System.Drawing.Point(96, 222);
+            this.btnF4.Name = "btnF4";
+            this.btnF4.Size = new System.Drawing.Size(108, 76);
+            this.btnF4.TabIndex = 6;
+            this.btnF4.Text = "F4\r\nCANCELAR\r\nITEM";
+            this.btnF4.UseVisualStyleBackColor = true;
             // 
-            // panelCodQtdCodBarra
+            // btnF5
             // 
-            this.panelCodQtdCodBarra.Location = new System.Drawing.Point(775, 526);
-            this.panelCodQtdCodBarra.Name = "panelCodQtdCodBarra";
-            this.panelCodQtdCodBarra.Size = new System.Drawing.Size(545, 260);
-            this.panelCodQtdCodBarra.TabIndex = 5;
+            this.btnF5.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_botão_f4_f5_f6;
+            this.btnF5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnF5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnF5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnF5.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF5.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.btnF5.Location = new System.Drawing.Point(217, 222);
+            this.btnF5.Name = "btnF5";
+            this.btnF5.Size = new System.Drawing.Size(108, 76);
+            this.btnF5.TabIndex = 7;
+            this.btnF5.Text = "F5\r\nCANCELAR\r\nCOMPRA";
+            this.btnF5.UseVisualStyleBackColor = true;
+            // 
+            // btnF6
+            // 
+            this.btnF6.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_botão_f4_f5_f6;
+            this.btnF6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnF6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnF6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(231)))));
+            this.btnF6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnF6.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF6.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.btnF6.Location = new System.Drawing.Point(348, 222);
+            this.btnF6.Name = "btnF6";
+            this.btnF6.Size = new System.Drawing.Size(108, 76);
+            this.btnF6.TabIndex = 8;
+            this.btnF6.Text = "F6\r\nENCERRAR\r\nCOMPRA\r\n";
+            this.btnF6.UseVisualStyleBackColor = true;
+            // 
+            // textBoxCodProd
+            // 
+            this.textBoxCodProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
+            this.textBoxCodProd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxCodProd.Font = new System.Drawing.Font("Tw Cen MT Condensed", 26.25F, System.Drawing.FontStyle.Bold);
+            this.textBoxCodProd.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.textBoxCodProd.Location = new System.Drawing.Point(5, 49);
+            this.textBoxCodProd.Name = "textBoxCodProd";
+            this.textBoxCodProd.Size = new System.Drawing.Size(224, 38);
+            this.textBoxCodProd.TabIndex = 9;
+            this.textBoxCodProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxQtd
+            // 
+            this.textBoxQtd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
+            this.textBoxQtd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxQtd.Font = new System.Drawing.Font("Tw Cen MT Condensed", 26.25F, System.Drawing.FontStyle.Bold);
+            this.textBoxQtd.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.textBoxQtd.Location = new System.Drawing.Point(317, 49);
+            this.textBoxQtd.Name = "textBoxQtd";
+            this.textBoxQtd.Size = new System.Drawing.Size(224, 38);
+            this.textBoxQtd.TabIndex = 10;
+            this.textBoxQtd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxCodBarras
+            // 
+            this.textBoxCodBarras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
+            this.textBoxCodBarras.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxCodBarras.Font = new System.Drawing.Font("Tw Cen MT Condensed", 26.25F, System.Drawing.FontStyle.Bold);
+            this.textBoxCodBarras.ForeColor = System.Drawing.Color.DarkOrchid;
+            this.textBoxCodBarras.Location = new System.Drawing.Point(43, 143);
+            this.textBoxCodBarras.Name = "textBoxCodBarras";
+            this.textBoxCodBarras.Size = new System.Drawing.Size(458, 38);
+            this.textBoxCodBarras.TabIndex = 11;
+            this.textBoxCodBarras.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TelaVendasCaixa
             // 
@@ -204,6 +391,11 @@
             this.Load += new System.EventHandler(this.TelaVendasCaixa_Load);
             this.panelEsc.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureTextEsc)).EndInit();
+            this.panelCodQtdCodBarra.ResumeLayout(false);
+            this.panelCodQtdCodBarra.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFundCodBarras)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFundQtd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFundCodProd)).EndInit();
             this.panelFundoAtendente.ResumeLayout(false);
             this.panelFundoAtendente.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureAtendente)).EndInit();
@@ -227,5 +419,17 @@
         private System.Windows.Forms.Label labelData;
         private System.Windows.Forms.Label labelHora;
         private System.Windows.Forms.Panel panelCodQtdCodBarra;
+        private System.Windows.Forms.PictureBox pictureFundCodProd;
+        private System.Windows.Forms.Label labelF1CodProd;
+        private System.Windows.Forms.Label labelF2Qtd;
+        private System.Windows.Forms.PictureBox pictureFundQtd;
+        private System.Windows.Forms.Label labelF3CodBarras;
+        private System.Windows.Forms.PictureBox pictureFundCodBarras;
+        private System.Windows.Forms.Button btnF4;
+        private System.Windows.Forms.Button btnF6;
+        private System.Windows.Forms.Button btnF5;
+        private System.Windows.Forms.TextBox textBoxCodProd;
+        private System.Windows.Forms.TextBox textBoxCodBarras;
+        private System.Windows.Forms.TextBox textBoxQtd;
     }
 }

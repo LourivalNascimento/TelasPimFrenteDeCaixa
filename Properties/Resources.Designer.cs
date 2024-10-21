@@ -193,6 +193,36 @@ namespace TelasPimFrenteDeCaixa.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundo_botao_f1_f2 {
+            get {
+                object obj = ResourceManager.GetObject("fundo botao f1 f2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_botão_f4_f5_f6 {
+            get {
+                object obj = ResourceManager.GetObject("fundo botão f4 f5 f6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_cod_barras {
+            get {
+                object obj = ResourceManager.GetObject("fundo cod barras", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo_login {
             get {
                 object obj = ResourceManager.GetObject("fundo login", resourceCulture);
