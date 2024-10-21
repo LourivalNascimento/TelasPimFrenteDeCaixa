@@ -213,50 +213,55 @@
             // labelCod
             // 
             this.labelCod.AutoSize = true;
-            this.labelCod.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold);
+            this.labelCod.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(39)))), ((int)(((byte)(0)))));
             this.labelCod.Location = new System.Drawing.Point(3, 57);
             this.labelCod.Name = "labelCod";
-            this.labelCod.Size = new System.Drawing.Size(42, 24);
+            this.labelCod.Size = new System.Drawing.Size(38, 22);
             this.labelCod.TabIndex = 6;
             this.labelCod.Text = "Cod.";
             // 
             // labelProduto
             // 
             this.labelProduto.AutoSize = true;
-            this.labelProduto.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold);
-            this.labelProduto.Location = new System.Drawing.Point(81, 57);
+            this.labelProduto.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProduto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(39)))), ((int)(((byte)(0)))));
+            this.labelProduto.Location = new System.Drawing.Point(76, 57);
             this.labelProduto.Name = "labelProduto";
-            this.labelProduto.Size = new System.Drawing.Size(69, 24);
+            this.labelProduto.Size = new System.Drawing.Size(63, 22);
             this.labelProduto.TabIndex = 7;
             this.labelProduto.Text = "Produto";
             // 
             // labelQtd
             // 
             this.labelQtd.AutoSize = true;
-            this.labelQtd.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold);
-            this.labelQtd.Location = new System.Drawing.Point(523, 57);
+            this.labelQtd.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQtd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(39)))), ((int)(((byte)(0)))));
+            this.labelQtd.Location = new System.Drawing.Point(525, 57);
             this.labelQtd.Name = "labelQtd";
-            this.labelQtd.Size = new System.Drawing.Size(42, 24);
+            this.labelQtd.Size = new System.Drawing.Size(38, 22);
             this.labelQtd.TabIndex = 8;
             this.labelQtd.Text = "Qtd.";
             // 
             // labelValorUni
             // 
             this.labelValorUni.AutoSize = true;
-            this.labelValorUni.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold);
-            this.labelValorUni.Location = new System.Drawing.Point(561, 57);
+            this.labelValorUni.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValorUni.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(39)))), ((int)(((byte)(0)))));
+            this.labelValorUni.Location = new System.Drawing.Point(563, 57);
             this.labelValorUni.Name = "labelValorUni";
-            this.labelValorUni.Size = new System.Drawing.Size(84, 24);
+            this.labelValorUni.Size = new System.Drawing.Size(74, 22);
             this.labelValorUni.TabIndex = 9;
             this.labelValorUni.Text = "Valor uni.";
             // 
             // labelValorTotal
             // 
             this.labelValorTotal.AutoSize = true;
-            this.labelValorTotal.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold);
-            this.labelValorTotal.Location = new System.Drawing.Point(643, 57);
+            this.labelValorTotal.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValorTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(39)))), ((int)(((byte)(0)))));
+            this.labelValorTotal.Location = new System.Drawing.Point(639, 57);
             this.labelValorTotal.Name = "labelValorTotal";
-            this.labelValorTotal.Size = new System.Drawing.Size(93, 24);
+            this.labelValorTotal.Size = new System.Drawing.Size(82, 22);
             this.labelValorTotal.TabIndex = 10;
             this.labelValorTotal.Text = "Valor total";
             // 
@@ -305,9 +310,9 @@
             // 
             this.pictureValorTotal.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_vlr_total;
             this.pictureValorTotal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureValorTotal.Location = new System.Drawing.Point(653, 81);
+            this.pictureValorTotal.Location = new System.Drawing.Point(641, 81);
             this.pictureValorTotal.Name = "pictureValorTotal";
-            this.pictureValorTotal.Size = new System.Drawing.Size(70, 34);
+            this.pictureValorTotal.Size = new System.Drawing.Size(82, 40);
             this.pictureValorTotal.TabIndex = 5;
             this.pictureValorTotal.TabStop = false;
             // 
@@ -315,9 +320,9 @@
             // 
             this.pictureValorUni.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_vlr_un;
             this.pictureValorUni.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureValorUni.Location = new System.Drawing.Point(569, 81);
+            this.pictureValorUni.Location = new System.Drawing.Point(563, 81);
             this.pictureValorUni.Name = "pictureValorUni";
-            this.pictureValorUni.Size = new System.Drawing.Size(70, 34);
+            this.pictureValorUni.Size = new System.Drawing.Size(76, 40);
             this.pictureValorUni.TabIndex = 4;
             this.pictureValorUni.TabStop = false;
             // 
@@ -327,7 +332,7 @@
             this.pictureQtd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureQtd.Location = new System.Drawing.Point(527, 81);
             this.pictureQtd.Name = "pictureQtd";
-            this.pictureQtd.Size = new System.Drawing.Size(34, 34);
+            this.pictureQtd.Size = new System.Drawing.Size(34, 40);
             this.pictureQtd.TabIndex = 3;
             this.pictureQtd.TabStop = false;
             // 
@@ -335,9 +340,9 @@
             // 
             this.pictureProduto.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_produto;
             this.pictureProduto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureProduto.Location = new System.Drawing.Point(78, 81);
+            this.pictureProduto.Location = new System.Drawing.Point(74, 81);
             this.pictureProduto.Name = "pictureProduto";
-            this.pictureProduto.Size = new System.Drawing.Size(443, 34);
+            this.pictureProduto.Size = new System.Drawing.Size(451, 40);
             this.pictureProduto.TabIndex = 2;
             this.pictureProduto.TabStop = false;
             // 
@@ -347,7 +352,7 @@
             this.pictureCod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureCod.Location = new System.Drawing.Point(3, 81);
             this.pictureCod.Name = "pictureCod";
-            this.pictureCod.Size = new System.Drawing.Size(69, 34);
+            this.pictureCod.Size = new System.Drawing.Size(69, 40);
             this.pictureCod.TabIndex = 1;
             this.pictureCod.TabStop = false;
             // 
