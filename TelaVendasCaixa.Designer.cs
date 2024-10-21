@@ -383,6 +383,7 @@
             this.btnF6.TabIndex = 8;
             this.btnF6.Text = "F6\r\nENCERRAR\r\nCOMPRA\r\n";
             this.btnF6.UseVisualStyleBackColor = true;
+            this.btnF6.Click += new System.EventHandler(this.btnF6_Click);
             // 
             // btnF5
             // 

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PopUpEncerramento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpEncerramento.Designer.cs">
+      <DependentUpon>PopUpEncerramento.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaLoginCaixa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="TelaVendasCaixa.Designer.cs">
       <DependentUpon>TelaVendasCaixa.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PopUpEncerramento.resx">
+      <DependentUpon>PopUpEncerramento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaLoginCaixa.resx">
       <DependentUpon>TelaLoginCaixa.cs</DependentUpon>
     </EmbeddedResource>
