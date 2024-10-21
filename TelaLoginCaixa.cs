@@ -48,8 +48,6 @@ namespace TelasPimFrenteDeCaixa
                 telaVendas.Show();
             }
 
-            textBoxCodUser.Text = null;
-            textBoxSenha.Text = null;   
         }
     }
 }

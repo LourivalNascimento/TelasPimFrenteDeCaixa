@@ -183,9 +183,29 @@ namespace TelasPimFrenteDeCaixa.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundo_atendende {
+            get {
+                object obj = ResourceManager.GetObject("fundo atendende", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo_login {
             get {
                 object obj = ResourceManager.GetObject("fundo login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_atendente {
+            get {
+                object obj = ResourceManager.GetObject("logo atendente", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +236,16 @@ namespace TelasPimFrenteDeCaixa.Properties {
         internal static System.Drawing.Bitmap morangolandia_logo {
             get {
                 object obj = ResourceManager.GetObject("morangolandia logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap texto_esc {
+            get {
+                object obj = ResourceManager.GetObject("texto esc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

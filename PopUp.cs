@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace TelasPimFrenteDeCaixa
 {
-    public partial class TelaVendasCaixa : Form
+    public partial class PopUp : Form
     {
-        public TelaVendasCaixa()
+        public PopUp()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void TelaVendasCaixa_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnEsc_Click(object sender, EventArgs e)
+        private void PopUp_Load(object sender, EventArgs e)
         {
             Close();
         }

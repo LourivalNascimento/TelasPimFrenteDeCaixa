@@ -137,5 +137,14 @@
   <ItemGroup>
     <None Include="Resources\morangolandia logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texto esc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo atendende.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo atendente.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
