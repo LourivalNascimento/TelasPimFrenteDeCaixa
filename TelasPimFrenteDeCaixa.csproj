@@ -149,5 +149,32 @@
   <ItemGroup>
     <None Include="Resources\fundo botao f1 f2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texto carrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnEsc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo cod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo produto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo qtd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo vlr un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo vlr total.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texto total da compra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo total compra.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

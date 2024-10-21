@@ -93,6 +93,16 @@ namespace TelasPimFrenteDeCaixa.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnEsc {
+            get {
+                object obj = ResourceManager.GetObject("btnEsc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap caixa_aberto_fundo_roxo {
             get {
                 object obj = ResourceManager.GetObject("caixa aberto fundo roxo", resourceCulture);
@@ -213,6 +223,16 @@ namespace TelasPimFrenteDeCaixa.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundo_cod {
+            get {
+                object obj = ResourceManager.GetObject("fundo cod", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo_cod_barras {
             get {
                 object obj = ResourceManager.GetObject("fundo cod barras", resourceCulture);
@@ -226,6 +246,56 @@ namespace TelasPimFrenteDeCaixa.Properties {
         internal static System.Drawing.Bitmap fundo_login {
             get {
                 object obj = ResourceManager.GetObject("fundo login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_produto {
+            get {
+                object obj = ResourceManager.GetObject("fundo produto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_qtd {
+            get {
+                object obj = ResourceManager.GetObject("fundo qtd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_total_compra {
+            get {
+                object obj = ResourceManager.GetObject("fundo total compra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_vlr_total {
+            get {
+                object obj = ResourceManager.GetObject("fundo vlr total", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_vlr_un {
+            get {
+                object obj = ResourceManager.GetObject("fundo vlr un", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +343,29 @@ namespace TelasPimFrenteDeCaixa.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap texto_carrinho {
+            get {
+                object obj = ResourceManager.GetObject("texto carrinho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap texto_esc {
             get {
                 object obj = ResourceManager.GetObject("texto esc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap texto_total_da_compra {
+            get {
+                object obj = ResourceManager.GetObject("texto total da compra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
