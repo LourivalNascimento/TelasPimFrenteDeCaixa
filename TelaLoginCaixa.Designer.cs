@@ -182,7 +182,7 @@
             // 
             // panelFundoLogin
             // 
-            this.panelFundoLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.panelFundoLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panelFundoLogin.BackColor = System.Drawing.Color.Transparent;
             this.panelFundoLogin.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.fundo_login;
             this.panelFundoLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -200,7 +200,7 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnEntrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnEntrar.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.btn_entrar;
             this.btnEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -265,7 +265,7 @@
             // 
             // pictureCaixaTextPassw
             // 
-            this.pictureCaixaTextPassw.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.pictureCaixaTextPassw.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureCaixaTextPassw.BackColor = System.Drawing.Color.Transparent;
             this.pictureCaixaTextPassw.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.caixa_de_texto_login;
             this.pictureCaixaTextPassw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -277,7 +277,7 @@
             // 
             // pictureCaixaTextCod
             // 
-            this.pictureCaixaTextCod.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.pictureCaixaTextCod.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureCaixaTextCod.BackColor = System.Drawing.Color.Transparent;
             this.pictureCaixaTextCod.BackgroundImage = global::TelasPimFrenteDeCaixa.Properties.Resources.caixa_de_texto_login;
             this.pictureCaixaTextCod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -306,10 +306,12 @@
             this.Controls.Add(this.pictureCenouraTop);
             this.Controls.Add(this.pictureMaca);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "TelaLoginCaixa";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TelaLoginCaixa_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureMaca)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureAbacaxi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCerejaEsquerda)).EndInit();

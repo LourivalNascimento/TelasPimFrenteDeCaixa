@@ -17,9 +17,20 @@ namespace TelasPimFrenteDeCaixa
             InitializeComponent();
         }
 
-        private void OcultarTelaLogin()
+        private void AbrirTelaDeVendas()
         {
+            Form openForm1 = FormJaAberto(typeof(TelaVendasCaixa));
 
+            if (openForm1 != null)
+            {
+                openForm1.Focus();
+            }
+            else
+            {
+                TelaVendasCaixa telaVendas = new TelaVendasCaixa();
+                //telaVendas.MdiParent = this;
+                telaVendas.Show();
+            }
         }
         private Form FormJaAberto(Type formType)
         {
@@ -35,19 +46,19 @@ namespace TelasPimFrenteDeCaixa
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            Form openForm1 = FormJaAberto(typeof(TelaVendasCaixa));
+            AbrirTelaDeVendas();
+        }
 
-            if (openForm1 != null)
+        private void TelaLoginCaixa_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
             {
-                openForm1.Focus();
+                AbrirTelaDeVendas();
             }
-            else
+            if (e.KeyData == Keys.Escape)
             {
-                TelaVendasCaixa telaVendas = new TelaVendasCaixa();
-                //telaVendas.MdiParent = this;
-                telaVendas.Show();
+                Close();
             }
-
         }
     }
 }
