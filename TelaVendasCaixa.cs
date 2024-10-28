@@ -12,10 +12,10 @@ namespace TelasPimFrenteDeCaixa
 {
     public partial class TelaVendasCaixa : Form
     {
+        
         public TelaVendasCaixa()
         {
             InitializeComponent();
-            textBoxCodProd.Focus();
         }
         private void AbrirPopUp()
         {
@@ -42,11 +42,6 @@ namespace TelasPimFrenteDeCaixa
                 }
             }
             return null;
-        }
-
-        private void TelaVendasCaixa_Load(object sender, EventArgs e)
-        {
-            
         }
 
         private void btnEsc_Click(object sender, EventArgs e)

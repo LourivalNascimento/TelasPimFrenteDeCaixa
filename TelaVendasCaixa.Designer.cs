@@ -570,7 +570,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaVendasCaixa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.TelaVendasCaixa_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TelaVendasCaixa_KeyDown);
             this.panelEsc.ResumeLayout(false);
             this.panelCodQtdCodBarra.ResumeLayout(false);
