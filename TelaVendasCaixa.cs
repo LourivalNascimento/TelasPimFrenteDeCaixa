@@ -17,6 +17,17 @@ namespace TelasPimFrenteDeCaixa
         {
             InitializeComponent();
         }
+        //Método que mostra um MessageBox perguntando se deseja fechar ou não o programa
+        public void FecharPrograma()
+        {
+            DialogResult result = MessageBox.Show("Deseja fechar o programa Morangolandia?", "s a i r", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+
+            if (result == DialogResult.Yes)
+            {
+                //Desloga da conta e fecha o programa
+                Close();
+            }
+        }
         private void AbrirPopUp()
         {
             Form openForm1 = FormJaAberto(typeof(PopUpEncerramento));
@@ -74,7 +85,7 @@ namespace TelasPimFrenteDeCaixa
             }
             if (e.KeyData == Keys.Escape)
             {
-                Close();
+                FecharPrograma();
             }
         }
     }
